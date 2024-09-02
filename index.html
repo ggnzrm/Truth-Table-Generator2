@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth Table Generator</title>
+    <link rel="stylesheet" href="projectcom/style.css">
+</head>
+<body>
+    <style>
+        body{
+    width: 80%;
+    height: 400px; 
+            background-image: url('file:///C:/Users/Pawarisa/AppData/Local/Messenger/TamStorage/media_bank/AdvancedCrypto/100078274153211/persistent/att.Dg8vr2G09HzoLUwJLuJuysbFMfYL4t9YveN52JaKIXM.png');
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <div class="container-background">
+        <header>
+            <h1>หาค่าความจริงของตรรกศาสตร์</h1>
+            <p>ใส่นิพจน์เพื่อหาคำตอบ(เช่น p,q เป็นต้น).</p>
+            <p>คำแนะนำ && แทน เเละ
+                || แทน หรือ 
+                <= แทน ถ้า...เเล้ว 
+                ! แทน นิเสธ
+            </p>
+            
+        </header>
+        <main>
+            <form id="truthTableForm">
+                <label for="expression">:</label>
+                <input type="text" id="expression" name="expression" placeholder=" p ∧ q" required>
+                <button type="submit">หาผลลัพธ์</button>
+                <body>
+                    <p>คำแนะนำในการพัฒนาต่อ <a href="https://forms.gle/NHemWZTLiFnSgCnN9" target="_blank">Example.com</a></p>
+                </body>
+            </form>
+            <div id="truthTable"></div>
+        </main>
+        <footer>
+            <p>&copy; .</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
